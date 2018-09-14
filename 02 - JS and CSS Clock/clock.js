@@ -62,4 +62,4 @@ class Clock {
 const clock = new Clock(document.querySelector('.clock'));
 clock.init();
 
-setTimeout(() => clock.stop(clock.id), 10000);
+// setTimeout(() => clock.stop(clock.id), 10000);
